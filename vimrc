@@ -38,7 +38,7 @@ Plugin 'honza/vim-snippets'
 call vundle#end()
 
 filetype plugin indent on
-autocmd FileType python setlocal cursorcolumn
+"autocmd FileType python setlocal cursorcolumn
 autocmd FileType c setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType cpp setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType h setlocal expandtab shiftwidth=2 softtabstop=2
@@ -82,8 +82,8 @@ nnoremap <C-e> :NERDTreeToggle<CR>
 nnoremap <C-a> :BufExplorer<CR>
 
 " Split screen vertically and horizontally
-nnoremap <C-s> :vsp<cr>
-nnoremap <S-s> :sp<cr>
+nnoremap <S-s> :vsp<cr>
+nnoremap <S-f> :sp<cr>
 
 " Movement through splits
 nnoremap <C-h> <C-w>h
