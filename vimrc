@@ -49,7 +49,7 @@ set backspace=indent,eol,start
 
 syntax enable
 
-set nu
+"set nu
 set rnu
 set ai
 set ruler
