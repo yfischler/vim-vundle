@@ -124,3 +124,8 @@ nnoremap <Space>c :execute ':py3f '. clangBase <cr>
 " Run YAPF on the whole buffer.
 nnoremap <Space>p :call yapf#YAPF()<cr>
 nnoremap <Space>P :YAPF<cr>
+
+com! FormatJSON %!python -m json.tool
+
+set visualbell
+
