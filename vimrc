@@ -125,7 +125,7 @@ nnoremap <Space>c :execute ':py3f '. clangBase <cr>
 nnoremap <Space>p :call yapf#YAPF()<cr>
 nnoremap <Space>P :YAPF<cr>
 
-com! FormatJSON %!python -m json.tool
+com! FormatJSON %!python3 -m json.tool
 
 set visualbell
 
