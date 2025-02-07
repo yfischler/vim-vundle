@@ -129,3 +129,4 @@ com! FormatJSON %!python3 -m json.tool
 
 set visualbell
 
+set hlsearch
